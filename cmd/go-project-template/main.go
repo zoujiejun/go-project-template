@@ -9,7 +9,7 @@ func main() {
 
 	app, err := InitializeApp(*configFile)
 	if err != nil {
-:		panic(err)
+		panic(err)
 	}
 
 	err = app.Start()
